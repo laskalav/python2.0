@@ -26,14 +26,19 @@ def rand_nums(limit):
         counter += 1
 
 
-rand = rand_nums(2)
+rand2 = rand_nums(10)
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
+print(next(rand2))
 try:
-    print(next(rand))
-    print(next(rand))
-    print(next(rand))
-    print(next(rand))
-    print(next(rand))
-    print(next(rand))
+    print(next(rand2))
 except StopIteration:
     print("...StopIteration...")
 
